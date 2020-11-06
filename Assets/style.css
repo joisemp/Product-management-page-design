@@ -1,0 +1,126 @@
+.card_body {
+    height: 913px;
+    box-shadow: 0px 27px 47px -23px #0f1832;
+    margin: 3% 3% 3% 3%;
+    border-radius: 15px;
+    background: #242e4c;
+}
+
+.has-search .form-control {
+    color: #97a5ce;
+    padding-left: 2.375rem;
+    height: 57px;
+    fill: none;
+    margin: 100px 0 0 10%;
+    border-radius: 5px;
+    border: solid 1px #171f38;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 51.375px;
+    margin: 0 0 0 9%;
+    text-align: center;
+    pointer-events: none;
+}
+
+.filter .btn {
+    color: white;
+    margin: 100px 10% 0 0;
+    height: 57px;
+    border-radius: 5px;
+    border: solid 1px #171f38;
+    background: none;
+    float: right;
+    text-align: center;
+}
+
+.table.table-striped {
+    border: none;
+    margin-top: 20px;
+}
+
+table.table-striped>tbody>tr {
+    border-bottom: solid 3px #242e4c;
+    border-right: solid 3px #242e4c;
+    border-top: solid 3px #242e4c;
+    border-left: solid 3px #088104;
+}
+
+table.table-striped>thead>tr>th {
+    border: none;
+    color: white;
+}
+
+table.table-striped>thead>tr>th {
+    border: none;
+}
+
+table.table-striped>tbody>tr>td {
+    border: none;
+    color: white;
+    background: #1c2540;
+}
+
+.delete {
+    background: none;
+}
+
+
+/* width */
+
+ ::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px grey;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #010929;
+    border-radius: 10px;
+}
+
+.add {
+    float: right;
+}
+
+:-moz-placeholder {
+    opacity: 0.5;
+    color: #97a5ce;
+    font-family: "Muli-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+:-ms-input-placeholder {
+    opacity: 0.5;
+    color: #97a5ce;
+    font-family: "Muli-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+::-webkit-input-placeholder {
+    opacity: 0.5;
+    color: #97a5ce;
+    font-family: "Muli-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+}
